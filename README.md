@@ -57,7 +57,7 @@ this should generate `dataset.json`
 
 ### 3. Detect Checkerboard Corners and Solve Camera Pose
 
-In this step, if you know the precise intrinsic parameters of your RGB camera, you can run `2_detect_cam_pose_with_know_intrinsics.py` and modify the intrinsic parameters defined in the script. If you do not know your camera's intrinsic parameters, you can run `2_detect_cam_pose.py`, which will automatically calculate reasonably accurate intrinsic parameters based on the checkerboard corners.
+In this step, if you know the precise intrinsic parameters of your RGB camera, you can run `2_detect_cam_pose_with_known_intrinsics.py` and modify the intrinsic parameters defined in the script. If you do not know your camera's intrinsic parameters, you can run `2_detect_cam_pose.py`, which will automatically calculate reasonably accurate intrinsic parameters based on the checkerboard corners.
 
 Remember both file need to modify:
 

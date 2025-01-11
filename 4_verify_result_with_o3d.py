@@ -12,10 +12,10 @@ DEPTH_SCALE = 1000.0
 
 DEPTH_TRUNC = 2.0
 
-with open("calibrated_dataset_with_known_intrics.json") as file:
+with open("calibrated_dataset.json") as file:
     calibrated_data = json.load(file)
 
-def load_hand_eye_calibration(filename="hand_eye_calibration_result_with_known_intrics.npz"):
+def load_hand_eye_calibration(filename="hand_eye_calibration_result.npz"):
     data = np.load(filename)
     T_G2C = data["hand_eye_transform"]  # shape (4,4)
     return T_G2C
